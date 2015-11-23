@@ -1,0 +1,21 @@
+.section {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.col {
+	margin: 0;
+}
+/*body {
+	background-color: red;
+	margin: 0;
+}
+.col {
+	margin: 0;
+}
+div {
+	background-color: #eee;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+}*/
