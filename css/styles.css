@@ -1,21 +1,62 @@
+
+/* ------------------------------------------------------------------layout */
+body {
+	font-family: sans-serif; /* edit this to font type */
+}
+
+
+/* --------------------------------------------------------------------grid */
 .section {
-	max-width: 960px;
+	max-width: 960px; /* edit this to image container size */
 	margin: 0 auto;
 }
 .col {
 	margin: 0;
 }
-/*body {
-	background-color: red;
-	margin: 0;
+@media only screen and (max-width: 480px) {
+	.span_1_of_2 { width: 50%; }
+	.span_2_of_2 { width: 100%; }
 }
-.col {
-	margin: 0;
+
+/* ---------------------------------------------------------------------nav */
+.nav-collapse a {
+	background-color: #333; /* edit this to change nav color */
+	color: #ccc; /* edit this to change nav font color */
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
-div {
-	background-color: #eee;
+.nav-toggle:before {
+	color: #333; /* edit this to change the nav icon color */
+	font-size: 48px;  /* edit this to change the nav hamburger icon size */
+}
+ul li:last-child a {
+	border-right: none;
+}
+/* edit this to change for > mobile */
+@media screen and (min-width: 800px) {
+	.nav-collapse a {
+		padding-top: 64px; /* edit this to change the nav height */
+		padding-bottom: 64px; 
+	}
+}
+@media screen and (min-width: 40em) {
+  .nav-collapse li {
+    width: 20%; /* edit this to change number of nav links */
+    *width: 19.9%; /* IE7 Hack */
+    _width: 14%; /* IE6 Hack */
+  }
+}
+/* edit this to change for mobile */
+@media screen and (max-width: 40em) {
+	.nav-collapse a {
+	  	padding-top: 16px;
+	  	padding-bottom: 16px;
+	}
+}
+.nav-collapse,
+.nav-collapse ul {
+	max-width: 960px;
+	margin: 0 auto;
 	text-align: center;
 }
-img {
-	max-width: 100%;
-}*/
+

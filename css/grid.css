@@ -1,10 +1,11 @@
+
+/* -------------------------------------------------------basic grid styles */
 /*  SECTIONS  */
 .section {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
 }
-
 /*  COLUMN SETUP  */
 .col {
 	display: block;
@@ -25,16 +26,16 @@
 .span_1_of_2 {
 	width: 50%;
 }
-
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
 @media only screen and (max-width: 480px) {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
 }
-
 @media only screen and (max-width: 480px) {
-	.span_1_of_2 { width: 50%; }
-	.span_2_of_2 { width: 100%; }
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }
+
+
+
+
