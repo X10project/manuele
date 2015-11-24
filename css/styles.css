@@ -1,9 +1,14 @@
 
 /* ------------------------------------------------------------------layout */
 body {
-	font-family: sans-serif; /* edit this to font type */
+	font-family: 'Catamaran', sans-serif; /* edit this to font type */
+	background-color: #eee;
 }
-
+footer {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
 
 /* --------------------------------------------------------------------grid */
 .section {
@@ -24,6 +29,8 @@ body {
 	color: #ccc; /* edit this to change nav font color */
 	padding-top: 32px;
 	padding-bottom: 32px;
+	font-weight: 700; /* edit this to change nav font weight */
+	font-size: 1.8em; /* edit this to change nav font size */
 }
 .nav-toggle:before {
 	color: #333; /* edit this to change the nav icon color */
@@ -46,6 +53,11 @@ ul li:last-child a {
     _width: 14%; /* IE6 Hack */
   }
 }
+@media screen and (max-width: 800px) {
+	.nav-collapse a {
+		font-size: 1.3em;
+	}
+}
 /* edit this to change for mobile */
 @media screen and (max-width: 40em) {
 	.nav-collapse a {
@@ -59,4 +71,14 @@ ul li:last-child a {
 	margin: 0 auto;
 	text-align: center;
 }
+a.home {
+	background-color: #D45000;
+	color: #D6D1A9;
+}
+a.links {
+	background-color: #D6D1A9;
+	color: #333;
+
+}
+
 
