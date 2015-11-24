@@ -1,10 +1,9 @@
 <?php
 
-$EmailFrom = "danielaaronpearl@gmail.com";
-$EmailTo = "danielaaronpearl@gmail.com";
+$EmailFrom = "your@email.com";
+$EmailTo = "your@email.com";
 $Subject = Trim(stripslashes($_POST['Subject']));
 $Name = Trim(stripslashes($_POST['Name']));
-$Tel = Trim(stripslashes($_POST['Tel']));
 $Email = Trim(stripslashes($_POST['Email']));
 $Message = Trim(stripslashes($_POST['Message']));
 
