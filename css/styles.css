@@ -1,8 +1,7 @@
 
 /* ------------------------------------------------------------------layout */
 body {
-	font-family: 'Catamaran', sans-serif; /* edit this to font type */
-	background-color: #eee;
+	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; /* edit this to font type */
 }
 a {
 	text-decoration: none;
