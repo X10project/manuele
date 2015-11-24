@@ -1,4 +1,6 @@
-
+*{
+	border:solid 1px;
+}
 /* ------------------------------------------------------------------layout */
 body {
 	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; /* edit this to font type */
@@ -12,17 +14,31 @@ footer {
 	margin-bottom: 35px;
 	text-align: center;
 }
+footer p {
+	margin-top: 35px;
+}
 a[class*="socicon-"] {
-	/*font-size: 1.1em;*/
+	color: #D45000;
+	font-size: 1.1em;
 }
 
 /* ----------------------------------------------------------------skeleton */
 div.row {
 	margin-bottom: 1%;
 }
-nav a.columns {
+/*nav a.columns {
     margin-left: 4%; 
+}*/
+/* For devices larger than 275px */
+@media (min-width: 275px) {
+  .column.tile,
+  .columns.tile {
+    margin-left: 1%; }
+  .twelve.columns {
+  	width: 97%;
+  }
 }
 .row-span-2 .twelve.columns {
 	width: 100%;
+	margin-left: 0;
 }
