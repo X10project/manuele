@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>learn | James Manuele</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- mobile specific meta -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- default styles -->
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+
+	<!-- custom styles -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+
+		<!-- main navigation -->
+	    <nav class="row">
+			<a class="two columns" href="index.html">
+				<img class="u-max-full-width" src="img/nav/manuele-logo-2.png">
+			</a>
+			<div class="ten columns">
+
+				<div class="row">
+					<a class="three columns" href="about.html">
+						<img class="u-max-full-width" src="img/nav/about-nav.png">
+					</a>
+					<a class="three columns" href="https://soundcloud.com/jamesmanuele">
+						<img class="u-max-full-width" src="img/nav/listen-nav.png">
+					</a>
+					<a class="three columns" href="learn.html">
+						<img class="u-max-full-width" src="img/nav/learn-nav.png">
+					</a>
+					<a class="three columns" href="#">
+						<img class="u-max-full-width" src="img/nav/contact-nav.png">
+					</a>
+                    <!-- <a class="three columns" href="#">
+						<img class="u-max-full-width" src="img/nav/contact-nav.png">
+					</a> -->
+				</div>
+			</div>
+	    </nav><!-- end row -->
+    <article>
+        <section>
+            <div class="page-wrap" id="page-wrap">
+        		<div class="contact-area" id="contact-area">
+
+        			<form method="post" action="contactengine.php">
+        				<!-- <label for="Name">Name:</label> -->
+        				<input type="text" name="Name" id="Name" placeholder="Your Name"/>
+
+        				<!-- <label for="Email">Email:</label> -->
+        				<input type="text" name="Email" id="Email" placeholder="Your E-Mail"/>
+
+                        <!-- <label for="Subject">Subject:</label> -->
+        				<input type="text" name="Subject" id="Subject" placeholder="Your Subject"/>
+
+        				<!-- <label for="Message">Message:</label> -->
+        				<textarea name="Message" rows="20" cols="20" id="Message" placeholder="Your Message"></textarea></br>
+
+        				<input type="submit" name="submit" value="Submit" class="button-primary submit-button"/>
+        			</form>
+
+        			<div style="clear: both;"></div>
+        		</div>
+        	</div>
+        </section>
+    </article>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="contact_form.js"></script>
+</body>
+</html>

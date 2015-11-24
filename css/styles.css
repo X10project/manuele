@@ -16,13 +16,27 @@ a[class*="socicon-"] {
 	/*font-size: 1.1em;*/
 }
 
+form{
+	width:100%;
+	display: inline-block;
+	text-align: center;
+}
+input,textarea{
+	width:50%;
+	text-align: left;
+}
+
 /* ----------------------------------------------------------------skeleton */
 div.row {
 	margin-bottom: 1%;
 }
 nav a.columns {
-    margin-left: 4%; 
+    margin-left: 4%;
 }
 .row-span-2 .twelve.columns {
 	width: 100%;
+}
+
+.button-primary{
+	background-color: #d6d0ad;
 }
