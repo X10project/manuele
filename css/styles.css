@@ -12,8 +12,12 @@ footer {
 	margin-bottom: 35px;
 	text-align: center;
 }
+footer p {
+	margin-top: 35px;
+}
 a[class*="socicon-"] {
-	/*font-size: 1.1em;*/
+	color: #D45000;
+	font-size: 1.1em;
 }
 
 form{
@@ -27,16 +31,36 @@ input,textarea{
 }
 
 /* ----------------------------------------------------------------skeleton */
-div.row {
-	margin-bottom: 1%;
-}
-nav a.columns {
-    margin-left: 4%;
-}
-.row-span-2 .twelve.columns {
-	width: 100%;
+/* For devices larger than 275px */
+@media (min-width: 275px) {
+  .column.tile,
+  .columns.tile {
+    margin-left: 1.5%; }
+  .twelve.columns {
+  	width: 97.5%;
+  }
 }
 
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.container {
+		width: 80%;
+	}
+}
+/* margin under the tiles */
+div.row {
+	margin-bottom: 1.5%;
+}
+/* span for portrait tiles */
+.row-span-2 .twelve.columns {
+	width: 100%;
+	margin-left: 0;
+}
+/* left and right nav margins */
+nav {
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+}
 .button-primary{
 	background-color: #d6d0ad;
 }
