@@ -1,70 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>M | James Manuele</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta charset="utf-8">
+  <title>M | James Manuele</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- mobile specific meta -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- default styles -->
-	<link rel="stylesheet" type="text/css" href="css/grid.css">
-	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link href='https://fonts.googleapis.com/css?family=Catamaran:400,900,700|Martel' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
 
 	<!-- custom styles -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/metropolitan.css">
 
 </head>
 <body>
-	<div class="section group">
-		<!-- main navigation -->
-	    <nav class="nav-collapse">
-			<ul>
-				<li><a class="nav home" href="#">M</a></li>
-				<li><a class="nav links" href="#">ABOUT</a></li>
-				<li><a class="nav links" href="#">LISTEN</a></li>
-				<li><a class="nav links" href="#">LEARN</a></li>
-				<li><a class="nav links" href="#">CONTACT</a></li>
-			</ul>
-	    </nav>
-	</div>
 
-	<div class="section group">
+	<div class="container">
+
+		<!-- main navigation -->
+	    <div class="row">
+			<a class="two columns" href="#">
+				<img class="u-max-full-width" src="img/manuele-logo-2.png">
+			</a>
+			<div class="ten columns">
+
+				<div class="row">
+					<a class="three columns" href="#">
+						<img class="u-max-full-width" src="img/about-nav.png">
+					</a>
+					<a class="three columns" href="#">
+						<img class="u-max-full-width" src="img/listen-nav.png">
+					</a>
+					<a class="three columns" href="#">
+						<img class="u-max-full-width" src="img/learn-nav.png">
+					</a>
+					<a class="three columns" href="#">
+						<img class="u-max-full-width" src="img/contact-nav.png">
+					</a>
+				</div>
+			</div>
+	    </div><!-- end row -->
 
 		<!------------------------ -->
 		<!-- modify pictures below -->
 		<!------------------------ -->
 
-		<!-- row | two pictures -->
-		<img class="col span_1_of_2" src="https://unsplash.it/480/480/?gravity=east">
-		<img class="col span_1_of_2" src="https://unsplash.it/480/480/">
-		
-		<!-- row | two pictures -->
-		<img class="col span_1_of_2" src="https://unsplash.it/g/480/480/?random">
-		<img class="col span_1_of_2" src="https://unsplash.it/480/480/?random">
+		<div class="row"><!-- row | two pictures -->
+			
+			<img class="one-half column" src="https://unsplash.it/480/480/?gravity=east">
+			<img class="one-half column" src="https://unsplash.it/480/480/">
 
-		<!-- row | single picture -->
-		<img class="col span_2_of_2" src="https://unsplash.it/960/480/">
+		</div><!-- end row -->
 
-		<!-- row | two pictures -->
-		<img class="col span_1_of_2" src="https://unsplash.it/480/480/">
-		<img class="col span_1_of_2" src="https://unsplash.it/480/480/?gravity=east">
+		<div class="row"><!-- row | two pictures -->
+
+			<img class="one-half column" src="https://unsplash.it/g/480/480/?random">
+			<img class="one-half column" src="https://unsplash.it/480/480/?random">
+
+		</div><!-- end row -->
+
+		<div class="row"><!-- row | single picture -->
+
+			<img class="twelve columns" src="https://unsplash.it/960/480/">
+
+		</div><!-- end row -->
+
+		<div class="row"><!-- row | two pictures -->
+
+			<img class="one-half column" src="https://unsplash.it/480/480/">
+			<img class="one-half column" src="https://unsplash.it/480/480/?gravity=east">
+
+		</div><!-- end row -->
 
 		<!------------------------ -->
 		<!-- modify pictures above -->
 		<!------------------------ -->
-	</div>
 
-	<div class="section group">
 		<footer>&copy; 2015 James Manuele</footer>
-	</div>
 
-	<script type="text/javascript" src="http://use.typekit.com/intro.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-	<!-- nav -->
-	<script type="text/javascript" src="js/nav.js"></script>
-	<!-- nav options -->
-	<script type="text/javascript" src="js/nav-options.js"></script>
-
+	</div><!-- end container -->
 </body>
 </html>
