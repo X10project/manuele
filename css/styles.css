@@ -12,6 +12,9 @@ footer {
 	margin-bottom: 35px;
 	text-align: center;
 }
+a[class*="socicon-"] {
+	/*font-size: 1.1em;*/
+}
 
 /* ----------------------------------------------------------------skeleton */
 div.row {
