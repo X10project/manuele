@@ -2,6 +2,7 @@
 /* ------------------------------------------------------------------layout */
 body {
 	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; /* edit this to font type */
+	background-color: #d6d0ad;
 }
 a {
 	text-decoration: none;
@@ -11,11 +12,14 @@ footer {
 	margin-bottom: 35px;
 	text-align: center;
 }
+
+/* ----------------------------------------------------------------skeleton */
 div.row {
 	margin-bottom: 1%;
 }
 nav a.columns {
     margin-left: 4%; 
 }
-
-
+.row-span-2 .twelve.columns {
+	width: 100%;
+}
