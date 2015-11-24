@@ -48,13 +48,13 @@
     padding: 0; }
 }
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
+/* For devices larger than 275px */
+@media (min-width: 275px) {
   .container {
     width: 80%; }
   .column,
   .columns {
-    margin-left: 4%; }
+    margin-left: 1%; }
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
@@ -71,7 +71,7 @@
   .nine.columns                   { width: 74.0%;          }
   .ten.columns                    { width: 82.6666666667%; }
   .eleven.columns                 { width: 91.3333333333%; }
-  .twelve.columns                 { width: 100%; margin-left: 0; }
+  .twelve.columns                 { width: 97%; margin-left: 0; }
 
   .one-third.column               { width: 30.6666666667%; }
   .two-thirds.column              { width: 65.3333333333%; }
@@ -124,7 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   color: #222; }
 
 
