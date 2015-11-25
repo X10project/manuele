@@ -74,6 +74,10 @@ input, textarea {
 	text-align: left;
 	font-family: 'Intro';
 	font-size: 0.8em;
+	color: #333;
+}
+input:focus, textarea:focus {
+    border-color: #D45000 !important;
 }
 input.button-primary {
 	background-color: #D45000 !important;
