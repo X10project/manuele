@@ -1,7 +1,12 @@
+@font-face {
+	font-family: 'Intro';
+	src: url('../fonts/Intro.otf');
+	format('opentype');
+}
 
 /* ------------------------------------------------------------------layout */
 body {
-	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; /* edit this to font type */
+	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;  
 	background-color: #d6d0ad;
 }
 a {
@@ -35,7 +40,6 @@ a[class*="socicon-"] {
   	width: 97.5%;
   }
 }
-
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 	.container {
@@ -59,19 +63,24 @@ nav {
 
 /* -----------------------------------------------------------------contact */
 /* For devices larger than 275px */
-form{
+form {
 	width: 100%;
 	display: inline-block;
 	text-align: center;
 	margin-top: 5px;
 }
-input, textarea{
+input, textarea {
 	width: 97.5%;
 	text-align: left;
+	font-family: 'Intro';
+	font-size: 0.8em;
 }
 input.button-primary {
 	background-color: #D45000 !important;
 	border-color: #D45000 !important;
+	color: #d6d0ad !important;
+	font-family: initial;
+	font-size: 1.1em;
 }
 @media (min-width: 550px) {
 	input, textarea{
