@@ -48,7 +48,7 @@ a[class*="socicon-"] {
 }
 /* margin under the tiles */
 div.row {
-	margin-bottom: 1.5%;
+	/*margin-bottom: 1.5%;*/
 }
 /* span for portrait tiles */
 .row-span-2 .twelve.columns {
@@ -86,7 +86,7 @@ input.button-primary {
 	font-size: 1.1em;
 }
 @media (min-width: 550px) {
-	input, textarea{
+	input, textarea {
 		width: 70%;
 	}
 }
@@ -102,3 +102,27 @@ input.button-primary {
 :-ms-input-placeholder {  
    font-family: 'Intro'; 
 }
+
+
+/*test cards*/
+@media (min-width: 275px) {
+	.card {
+		max-width: 50%;
+		float: left;
+		box-sizing: border-box;
+		border: 3px solid transparent;
+	}
+	.card.landscape {
+		max-width: 100%;
+	}
+}
+@media (min-width: 550px) {
+	.card {
+		border: 5px solid transparent;
+	}
+}
+footer {
+	clear: left;
+	padding-top: 50px;
+}
+
