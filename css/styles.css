@@ -72,8 +72,7 @@ form {
 input, textarea {
 	width: 97.5%;
 	text-align: left;
-	font-family: 'Intro';
-	font-size: 0.8em;
+	font-size: 1.2em;
 	color: #333;
 }
 input:focus, textarea:focus {
@@ -83,11 +82,27 @@ input.button-primary {
 	background-color: #D45000 !important;
 	border-color: #D45000 !important;
 	color: #d6d0ad !important;
-	font-family: initial;
+	font-family: inherit;
 	font-size: 1.1em;
 }
 @media (min-width: 550px) {
 	input, textarea{
 		width: 70%;
 	}
+}
+::-webkit-input-placeholder {
+   font-family: 'Intro';
+   font-size: 0.8em;
+}
+:-moz-placeholder { /* Firefox 18- */
+   font-family: 'Intro';  
+   font-size: 0.8em;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family: 'Intro';  
+   font-size: 0.8em;
+}
+:-ms-input-placeholder {  
+   font-family: 'Intro'; 
+   font-size: 0.8em; 
 }
