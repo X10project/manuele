@@ -32,16 +32,16 @@
 
 				<div class="row">
 					<a class="three columns" href="about.html">
-						<img class="u-max-full-width" src="img/nav/about-nav.png">
+						<img class="u-max-full-width" src="img/nav/about-nav.jpg">
 					</a>
 					<a class="three columns" href="listen.html">
-						<img class="u-max-full-width" src="img/nav/listen-nav.png">
+						<img class="u-max-full-width" src="img/nav/listen-nav.jpg">
 					</a>
 					<a class="three columns" href="learn.html">
-						<img class="u-max-full-width" src="img/nav/learn-nav.png">
+						<img class="u-max-full-width" src="img/nav/learn-nav.jpg">
 					</a>
-					<a class="three columns" href="contact.html">
-						<img class="u-max-full-width" src="img/nav/contact-nav.png">
+					<a class="three columns" href="purchase.html">
+						<img class="u-max-full-width" src="img/nav/buy-nav.jpg">
 					</a>
 				</div>
 			</div>
@@ -56,30 +56,14 @@
 			<!-- row | social media icons -->
 			<div class="row social-media">
 
-				<div class="one column offset-by-two">
-					<a href="" class="socicon-youtube"></a>
-				</div>
-				<div class="one column">
-					<a href="" class="socicon-myspace"></a>
-				</div>
-				<div class="one column">
-					<a href="" class="socicon-soundcloud"></a>
-				</div>
-				<div class="one column">
-					<a href="" class="socicon-instagram"></a>
-				</div>
-				<div class="one column">
-					<a href="" class="socicon-snapchat"></a>
-				</div>
-				<div class="one column">
-					<a href="" class="socicon-twitter"></a>
-				</div>
-				<div class="one column">
-					<a href="" class="socicon-facebook"></a>
-				</div>
-				<div class="one column">
-					<a href="" class="socicon-googleplus"></a>
-				</div>
+					<a href="https://www.youtube.com/user/PortlandGuitarDuo" class="socicon-youtube"></a>
+					<a href="https://myspace.com/james.manuele" class="socicon-myspace"></a>
+					<a href="https://soundcloud.com/jamesmanuele" class="socicon-soundcloud"></a>
+					<a href="https://www.instagram.com/manueleguitar/" class="socicon-instagram"></a>
+					<a href="https://twitter.com/jamesmanuele" class="socicon-twitter"></a>
+					<a href="https://www.facebook.com/james.manuele.3" class="socicon-facebook"></a>
+					<a href="https://plus.google.com/114638262440652348058" class="socicon-googleplus"></a>
+					<a href="contact.html" class="socicon-mail"></a>
 
 	        </div><!-- end row -->
 
