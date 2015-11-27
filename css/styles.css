@@ -8,6 +8,9 @@
 * {
 	box-sizing: border-box;
 }
+.container {
+	max-width: 960px;
+}
 body {
 	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;  
 	background-color: #d6d0ad;
@@ -34,6 +37,9 @@ a:hover {
 a[class*="socicon-"] {
 	font-size: 1.1em;
 }
+.content {
+	width: 100%;
+}
 
 /* ----------------------------------------------------------card structure */
 nav, .card {
@@ -55,11 +61,14 @@ nav, .card {
 		border: 5px solid transparent;
 	}
 }
+nav {
+	border-top: none;
+}
 
 /* -----------------------------------------------------------------contact */
 form {
 	width: 100%;
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	margin-top: 5px;
 }
