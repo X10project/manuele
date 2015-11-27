@@ -4,7 +4,13 @@
 	format('opentype');
 }
 
-/* ------------------------------------------------------------------layout */
+/* ----------------------------------------------------------general layout */
+* {
+	box-sizing: border-box;
+}
+.container {
+	max-width: 960px;
+}
 body {
 	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;  
 	background-color: #d6d0ad;
@@ -13,9 +19,10 @@ a {
 	text-decoration: none;
 }
 footer {
-	margin-top: 50px;
-	margin-bottom: 35px;
 	text-align: center;
+	clear: left;
+	padding-top: 50px;
+	margin-bottom: 35px;
 }
 footer p {
 	margin-top: 35px;
@@ -25,47 +32,43 @@ a, a:focus, a:active {
 }
 a:hover {
 	opacity: 0.7;
+	color: #59D8E5;
 }
 a[class*="socicon-"] {
 	font-size: 1.1em;
 }
+.content {
+	width: 100%;
+}
 
-/* ----------------------------------------------------------------skeleton */
-/* For devices larger than 275px */
-@media (min-width: 275px) {
-  .column.tile,
-  .columns.tile {
-    margin-left: 1.5%; }
-  .twelve.columns {
-  	width: 97.5%;
-  }
+/* ----------------------------------------------------------card structure */
+nav, .card {
+	border: 3px solid transparent;
+}
+.card {
+	max-width: 50%;
+	float: left;
+}
+.card.landscape {
+	max-width: 100%;
 }
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 	.container {
 		width: 80%;
 	}
+	nav, .card {
+		border: 5px solid transparent;
+	}
 }
-/* margin under the tiles */
-div.row {
-	margin-bottom: 1.5%;
-}
-/* span for portrait tiles */
-.row-span-2 .twelve.columns {
-	width: 100%;
-	margin-left: 0;
-}
-/* left and right nav margins */
 nav {
-	margin-left: 1.5%;
-	margin-right: 1.5%;
+	border-top: none;
 }
 
 /* -----------------------------------------------------------------contact */
-/* For devices larger than 275px */
 form {
 	width: 100%;
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	margin-top: 5px;
 }
@@ -85,8 +88,11 @@ input.button-primary {
 	font-family: inherit;
 	font-size: 1.1em;
 }
+input.button-primary:hover {
+	opacity: 0.7;
+}
 @media (min-width: 550px) {
-	input, textarea{
+	input, textarea {
 		width: 70%;
 	}
 }
@@ -102,3 +108,5 @@ input.button-primary {
 :-ms-input-placeholder {  
    font-family: 'Intro'; 
 }
+
+
