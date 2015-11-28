@@ -140,4 +140,12 @@ input.button-primary:hover {
    font-family: 'Intro'; 
 }
 
+/* ------------------------------------------------------------fluid videos */
+.fluid-width-video-wrapper {
+	max-width: auto;
+	overflow: hidden;
+	width: auto;
+}
+
+
 
