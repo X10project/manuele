@@ -25,27 +25,27 @@
 	    <nav class="row">
 
 			<a class="two columns" href="home.html">
-				<img class="u-max-full-width" src="img/nav/manuele-logo-2.png">
+				<img class="u-max-full-width" src="img/nav/manuele-logo-2.png" alt="main logo and nav home link">
 			</a>
 			
 			<div class="ten columns">
 
 				<div class="row">
 					<a class="three columns" href="about.html">
-						<img class="u-max-full-width" src="img/nav/about-nav.jpg">
+						<img class="u-max-full-width" src="img/nav/about-nav.jpg" alt="nav about link">
 					</a>
 					<a class="three columns" href="listen.html">
-						<img class="u-max-full-width" src="img/nav/listen-nav.jpg">
+						<img class="u-max-full-width" src="img/nav/listen-nav.jpg" alt="nav listen link">
 					</a>
 					<a class="three columns" href="learn.html">
-						<img class="u-max-full-width" src="img/nav/learn-nav.jpg">
+						<img class="u-max-full-width" src="img/nav/learn-nav.jpg" alt="nav learn link">
 					</a>
 					<a class="three columns" href="purchase.html">
-						<img class="u-max-full-width" src="img/nav/buy-nav.jpg">
+						<img class="u-max-full-width" src="img/nav/buy-nav.jpg" alt="nav purchase link">
 					</a>
 				</div>
 			</div>
-	    </nav><!-- end row -->
+	    </nav><!-- end nav -->
 
 		<h2>Your message has been sent!</h2><br />
 
