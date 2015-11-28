@@ -5,21 +5,12 @@
 }
 
 /* ----------------------------------------------------------general layout */
-* {
-	box-sizing: border-box;
-}
-.container {
-	max-width: 960px;
-}
 body {
 	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;  
 	background-color: #f2ebc7;
-}
-a {
-	text-decoration: none;
+	text-align: center;
 }
 footer {
-	text-align: center;
 	clear: left;
 	padding-top: 50px;
 	margin-bottom: 35px;
@@ -27,27 +18,23 @@ footer {
 footer p {
 	margin-top: 35px;
 }
-.row .social-media {
-	width: 100%;
-}
-.social-media a {
-	padding-left: 3%;
-	padding-right: 3%;
+a {
+	text-decoration: none;
 }
 a, a:focus, a:active {
-	color: #D45000;
+	color: #901808;
 }
 a:hover {
 	opacity: 0.7;
-	color: #59D8E5;
-}
-.content {
-	width: 100%;
+	color: #348899;
 }
 
-/* ----------------------------------------------------------card structure */
+/* -------------------------------------------------------content structure */
 nav, .card {
 	border: 3px solid transparent;
+}
+nav {
+	border-top: none;
 }
 .card {
 	max-width: 50%;
@@ -56,6 +43,10 @@ nav, .card {
 .card.landscape {
 	max-width: 100%;
 }
+.social-media a {
+	padding-left: 3%;
+	padding-right: 3%;
+}
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 	.container {
@@ -63,6 +54,9 @@ nav, .card {
 	}
 	nav, .card {
 		border: 5px solid transparent;
+	}
+	nav {
+		border-top: none;
 	}
 	a[class*="socicon-"] {
 	font-size: 3em;
@@ -92,32 +86,29 @@ nav, .card {
 	font-size: 1em;
 	}
 }
-nav {
-	border-top: none;
-}
 
-/* -----------------------------------------------------------------contact */
+/* ------------------------------------------------------------contact form */
 form {
 	width: 100%;
-	/* display: inline-block; */
 	text-align: center;
-	margin-top: 5px;
+	margin-bottom: 0;
 }
 input, textarea {
-	width: 97.5%;
+	width: 100%;
 	text-align: left;
 	font-size: 1.4em;
 	color: #333;
 }
 input:focus, textarea:focus {
-    border-color: #D45000 !important;
+    border-color: #444 !important;
 }
 input.button-primary {
-	background-color: #D45000 !important;
-	border-color: #D45000 !important;
-	color: #d6d0ad !important;
+	background-color: #444 !important;
+	border-color: #444 !important;
+	color: #F2EBC7 !important;
 	font-family: inherit;
 	font-size: 1.1em;
+	margin-bottom: 0;
 }
 input.button-primary:hover {
 	opacity: 0.7;
