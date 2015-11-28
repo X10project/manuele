@@ -56,14 +56,14 @@
 			<!-- row | social media icons -->
 			<div class="row social-media">
 
-					<a href="https://www.youtube.com/user/PortlandGuitarDuo" class="socicon-youtube"></a>
-					<a href="https://myspace.com/james.manuele" class="socicon-myspace"></a>
-					<a href="https://soundcloud.com/jamesmanuele" class="socicon-soundcloud"></a>
-					<a href="https://www.instagram.com/manueleguitar/" class="socicon-instagram"></a>
-					<a href="https://twitter.com/jamesmanuele" class="socicon-twitter"></a>
-					<a href="https://www.facebook.com/james.manuele.3" class="socicon-facebook"></a>
-					<a href="https://plus.google.com/114638262440652348058" class="socicon-googleplus"></a>
-					<a href="contact.html" class="socicon-mail"></a>
+				<a href="https://www.youtube.com/user/PortlandGuitarDuo" class="socicon-youtube"></a>
+				<a href="https://myspace.com/james.manuele" class="socicon-myspace"></a>
+				<a href="https://soundcloud.com/jamesmanuele" class="socicon-soundcloud"></a>
+				<a href="https://www.instagram.com/manueleguitar/" class="socicon-instagram"></a>
+				<a href="https://twitter.com/jamesmanuele" class="socicon-twitter"></a>
+				<a href="https://www.facebook.com/james.manuele.3" class="socicon-facebook"></a>
+				<a href="https://plus.google.com/114638262440652348058" class="socicon-googleplus"></a>
+				<a href="contact.html" class="socicon-mail"></a>
 
 	        </div><!-- end row -->
 
