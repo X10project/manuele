@@ -5,6 +5,9 @@
 }
 
 /* ----------------------------------------------------------general layout */
+* {
+	box-sizing: border-box;
+}
 body {
 	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;  
 	background-color: #f2ebc7;
@@ -29,9 +32,16 @@ a:hover {
 	color: #348899;
 }
 
+/* ------------------------------------------------------------fluid videos */
+.fluid-width-video-wrapper {
+	max-width: auto;
+	overflow: hidden;
+	width: auto;
+}
+
 /* -------------------------------------------------------content structure */
-nav, .card {
-	border: 3px solid transparent;
+nav, .card, .landscape, .box {
+	border: 3px solid #f2ebc7;
 }
 nav {
 	border-top: none;
@@ -52,8 +62,8 @@ nav {
 	.container {
 		width: 80%;
 	}
-	nav, .card {
-		border: 5px solid transparent;
+	nav, .card, .landscape, .box {
+		border: 5px solid #f2ebc7;
 	}
 	nav {
 		border-top: none;
@@ -131,12 +141,18 @@ input.button-primary:hover {
    font-family: 'Intro'; 
 }
 
-/* ------------------------------------------------------------fluid videos */
-.fluid-width-video-wrapper {
-	max-width: auto;
+/* ------------------------------------------------------------contact form */
+.box {
+	background-color: #348899;
+	position: relative;
+	width: 50%;		/* desired width */
 	overflow: hidden;
-	width: auto;
 }
-
-
-
+.box:before {
+	content: "";
+	display: block;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+.container {
+	background-color: yellow;
+}
