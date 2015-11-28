@@ -53,7 +53,7 @@
 
 		<h2>Your message has been sent!</h2>
 		<br>
-		<h4><a href="home.html">Back to Homepage Form</a></h4>
+		<h4><a href="home.html">Back to Homepage</a></h4>
 
 		<!------------------------ -->
 		<!-- modify content above -->
