@@ -47,9 +47,17 @@
 			</div>
 	    </nav><!-- end nav -->
 
-		<h2>Your message has been sent!</h2><br />
+		<!------------------------ -->
+		<!-- modify content below -->
+		<!------------------------ -->
 
-		<h4><a href="index.html">Back to Homepage Form</a></h4>
+		<h2>Your message has been sent!</h2>
+		<br>
+		<h4><a href="home.html">Back to Homepage Form</a></h4>
+
+		<!------------------------ -->
+		<!-- modify content above -->
+		<!------------------------ -->
 
 		<footer>
 
