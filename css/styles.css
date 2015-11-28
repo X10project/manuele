@@ -175,3 +175,10 @@ blockquote {
     text-align: center;
     vertical-align: middle;
 }
+
+/* ------------ Temp Styles ----------------*/
+
+#contact {
+	clear: left;
+	padding-top: 50px; 
+}
