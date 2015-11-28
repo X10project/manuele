@@ -8,9 +8,9 @@
 body {
 	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;  
 	background-color: #f2ebc7;
+	text-align: center;
 }
 footer {
-	text-align: center;
 	clear: left;
 	padding-top: 50px;
 	margin-bottom: 35px;
