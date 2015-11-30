@@ -41,7 +41,7 @@ a:hover {
 
 /* -------------------------------------------------------content structure */
 
-nav, .card, .landscape, .text-box {
+nav, .card, .landscape, .text-box, blockquote {
 	border: 3px solid #f2ebc7;
 }
 nav {
@@ -63,7 +63,7 @@ nav {
 	.container {
 		width: 80%;
 	}
-	nav, .card, .landscape, .text-box {
+	nav, .card, .landscape, .text-box, blockquote {
 		border: 5px solid #f2ebc7;
 	}
 	nav {
@@ -143,9 +143,6 @@ input.button-primary:hover {
 }
 
 /* ----------------------------------------------------------------text box */
-blockquote {
-	margin: 0;
-}
 .text-box {
 	background-color: #eee;
 	color: #444;
@@ -174,4 +171,7 @@ blockquote {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+blockquote.twitter-tweet {
+	margin: 0 auto;
 }
