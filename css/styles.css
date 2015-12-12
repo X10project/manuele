@@ -32,6 +32,14 @@ a:hover {
 	color: #348899;
 }
 
+p, h3, h1 {
+	padding-top: 20px; 
+}
+
+img + h3 {
+	margin-top: 20px; 
+}
+
 /* ------------------------------------------------------------fluid videos */
 .fluid-width-video-wrapper {
 	max-width: auto;
